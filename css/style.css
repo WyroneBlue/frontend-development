@@ -1,6 +1,26 @@
+:root{
+    --text-color: #111111;
+    --filters-color: #757575;
+    --announcement-color: #FA5900;
+    --section-color: #E5E5E5;
+}
+
 html, body{
+    font-family: Helvetica, Arial;
+    color: var(--text-color);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-  
+
+h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
