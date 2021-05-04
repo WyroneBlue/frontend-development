@@ -4,7 +4,6 @@ var forYou = document.querySelector("#for-you div");
 var controls = document.querySelectorAll("#controls > span");
 var shoeSizes = document.querySelectorAll("#shoe-sizes > button");
 var shoeColors = document.querySelectorAll("#shoe-colors > a");
-console.log(shoeColors);
 let pos = { top: 0, left: 0, x: 0, y: 0 };
 
 
