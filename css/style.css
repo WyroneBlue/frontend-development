@@ -24,3 +24,207 @@ p{
     font-size: 16px;
     line-height: 22px;
 }
+
+/* overviewpagina */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav.joinus-signin {
+    background-color: lightgrey;
+    width: 100%;
+    position: relative;
+}
+.joinus-signin ul {
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex; 
+    position: relative;
+    align-items: flex-end;
+}
+  
+.joinus-signin li {
+    list-style-type: none;
+  }
+  
+.joinus-signin a {
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right-style: solid;
+    border-right-width: 1px;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: .8em;
+    color: black;
+}
+
+.header {
+    display: flex;
+}
+
+
+header button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+}
+  
+header button img {
+    width: 40px;
+    height: 40px;
+}
+  
+.header ul:first-of-type {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header ul li {
+    padding: 1em;
+    list-style: none;
+    text-align: center;
+}
+  
+header a .logo {
+    width: 75px;
+    height: 55px;
+    align-items: left;
+    margin-left: 2em;
+}
+  
+  
+.search-icon {
+    position: absolute;
+    right: 8em;
+}
+
+.wishlist-icon {
+    position: absolute;
+    right: 5em;
+}
+
+.shopping-bag-icon {
+    position: absolute;
+    right: 2em;
+}
+
+.mainsneakers img {
+    width: 100%;
+}
+
+.mainsneakers  {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1.75em;
+}
+
+article {
+    position: relative;
+    text-align: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 3em;
+}
+
+article p:first-of-type {
+    color: red;
+}
+  
+h2 {
+    font-size: 1.7em;
+    margin-top: .2em;
+    padding-right: 1em;
+    font-weight: normal;
+    margin-bottom: .4em;
+}
+
+footer {
+    background-color: black;
+    color: #919191;
+    font-size: 1em;
+    letter-spacing: .05em;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+footer h5 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 1.5em;
+    letter-spacing: 1.6px;
+}
+
+footer form {
+    display: flex;
+}
+  
+footer form input {
+    width: 350px;
+    height: 62px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    margin-top: .5em;
+    outline: none;
+    border-radius: 5em;
+}
+  
+footer form input::placeholder {
+    color: black;
+}
+  
+footer form button {
+    display: none;
+}
+
+#customer-service {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  
+#customer-service ul {
+    padding: .2em;
+    
+}
+  
+#customer-service li {
+    list-style-type: none;
+    margin-top: 1.2em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+
+#social-media ul {
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#social-media li{
+    list-style-type: none;
+    padding: .7em;
+}
+  
+#social-media li img {
+    width: 23px;
+    height: 23px;
+}
