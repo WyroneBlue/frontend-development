@@ -3,6 +3,9 @@ console.log('Hello World');
 var forYou = document.querySelector("#for-you div");
 var controls = document.querySelectorAll("#controls > span");
 var shoeSizes = document.querySelectorAll("#shoe-sizes > button");
+var shoeColors = document.querySelectorAll("#shoe-colors > a");
+console.log(shoeColors);
+let pos = { top: 0, left: 0, x: 0, y: 0 };
 
 
 const mouseDownHandler = function(e) {
@@ -61,4 +64,47 @@ const scrollForYou = function(e){
     }
 }
 
+const deactivateAllSizes = function(){
+    shoeSizes.forEach(button => {
+        button.classList.remove('active');
+    }); 
+}
 
+const setSizeActive = function(e){
+    console.log(e);
+    if(!e.target.classList.contains('empty')){
+        deactivateAllSizes();
+        let btn = e.target;
+        btn.classList.add('active');
+    }
+}
+
+const deactivateAllColors = function(){
+    shoeColors.forEach(img => {
+        img.classList.remove('active');
+    }); 
+}
+
+const setColorActive = function(e){
+    e.preventDefault();
+
+    if(!e.target.classList.contains('empty')){
+        deactivateAllColors();
+        let img = e.target.parentNode;
+        img.classList.add('active');
+    }
+}
+
+forYou.addEventListener('mousedown', mouseDownHandler);
+
+controls.forEach(span => {
+    span.addEventListener('click', scrollForYou);
+});
+
+shoeSizes.forEach(button => {
+    button.addEventListener('click', setSizeActive);
+});
+
+shoeColors.forEach(img => {
+    img.addEventListener('click', setColorActive);
+});
