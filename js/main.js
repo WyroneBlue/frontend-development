@@ -1,11 +1,10 @@
 console.log('Hello World');
-
 var forYou = document.querySelector("#for-you div");
 var controls = document.querySelectorAll("#controls > span");
 var shoeSizes = document.querySelectorAll("#shoe-sizes > button");
 var shoeColors = document.querySelectorAll("#shoe-colors > a");
+var addToCart = document.querySelectorAll(".add-to-cart");
 let pos = { top: 0, left: 0, x: 0, y: 0 };
-
 
 const mouseDownHandler = function(e) {
     forYou.style.cursor = 'grabbing';
@@ -52,8 +51,7 @@ const scrollForYou = function(e){
             break;
         default:
             console.log(e);
-            break;
-            
+            break;          
     }
 
     if(target == 'next'){
@@ -74,7 +72,7 @@ const setSizeActive = function(e){
     if(!e.target.classList.contains('empty')){
         deactivateAllSizes();
         let btn = e.target;
-        btn.classList.add('active');
+        btn.classList.toggle('active');
     }
 }
 
@@ -90,8 +88,12 @@ const setColorActive = function(e){
     if(!e.target.classList.contains('empty')){
         deactivateAllColors();
         let img = e.target.parentNode;
-        img.classList.add('active');
+        img.classList.toggle('active');
     }
+}
+
+const showCartPopup = function(e){
+    alert('Nieuwe item toegevoegd');
 }
 
 forYou.addEventListener('mousedown', mouseDownHandler);
@@ -106,4 +108,8 @@ shoeSizes.forEach(button => {
 
 shoeColors.forEach(img => {
     img.addEventListener('click', setColorActive);
+});
+
+addToCart.forEach(btn => {
+    btn.addEventListener('click', showCartPopup);
 });
