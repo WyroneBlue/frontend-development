@@ -9,10 +9,67 @@ var prices = document.querySelectorAll(".heading span");
 var images = document.querySelector(".images div");
 var colors = document.querySelector("#shoe-colors div");
 
+var controls = document.querySelectorAll("#controls > span");
+var forYou = document.querySelector("#for-you div");
+let pos = { top: 0, left: 0, x: 0, y: 0 };
 var html = {
     image: '',
     colors: '',
 };
+
+const mouseDownHandler = function(e) {
+    forYou.style.cursor = 'grabbing';
+    forYou.style.userSelect = 'none';
+
+    pos = {
+        left: forYou.scrollLeft,
+        x: e.clientX,
+    };
+
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+}
+
+const mouseMoveHandler = function(e) {
+    const dx = e.clientX - pos.x;
+    forYou.scrollLeft = pos.left - dx;
+};
+
+const mouseUpHandler = function() {
+    forYou.style.cursor = 'grab';
+    forYou.style.removeProperty('user-select');
+
+    document.removeEventListener('mousemove', mouseMoveHandler);
+    document.removeEventListener('mouseup', mouseUpHandler);
+};
+
+const scrollForYou = function(e){
+
+    let target;
+    let check = e.target.tagName;
+
+    switch (check) {
+        case 'SPAN':
+            target = e.target.dataset.scroll_controll
+            break;
+
+        case 'svg':
+            target = e.target.parentNode.dataset.scroll_controll
+            break;
+            
+        case 'path':
+            target = e.target.parentNode.parentNode.dataset.scroll_controll
+            break;
+        default:
+            break;          
+    }
+
+    if(target == 'next'){
+        forYou.scrollLeft = forYou.scrollLeft + 300;
+    } else {
+        forYou.scrollLeft = forYou.scrollLeft - 300;
+    }
+}
 
 let getCurrentShoe = function(e) {
 
@@ -46,4 +103,8 @@ let getCurrentShoe = function(e) {
 }
 
 window.addEventListener('DOMContentLoaded', getCurrentShoe);
+forYou.addEventListener('mousedown', mouseDownHandler);
 
+controls.forEach(span => {
+    span.addEventListener('click', scrollForYou);
+});
