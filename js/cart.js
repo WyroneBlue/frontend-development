@@ -15,10 +15,12 @@ var cart = {
 
 const showCartPopup = function(e){
     
-    cart.name = '';
-    cart.for = '';
-    cart.size = '';
-    cart.image = '';
+    cart.msg.innerText = '✅ Toegevoegd aan winkelmand';
+    cart.name.innerText = 'Nike Air Zoom Pegasus 38';
+    cart.for.innerText = 'Hardloopschoen voor heren';
+    cart.size.innerText = 'Maat 46';
+    cart.price.innerText = '€ 119.99';
+    cart.image.src = 'images/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg';
     
     popup.classList.add('show');
     
