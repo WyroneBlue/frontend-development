@@ -26,8 +26,14 @@ const showCartPopup = function(e){
     
     setTimeout(() => {
         popup.classList.remove('show');
-    }, 6000);
-    // alert('Nieuwe item toegevoegd');
+        cart.msg.innerText = '';
+        cart.name = '';
+        cart.for = '';
+        cart.size = '';
+        cart.price = '';
+        cart.image = '';
+    }, 8000);
+
 }
 
 const closePopup = function(e){
