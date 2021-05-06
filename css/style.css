@@ -40,8 +40,6 @@ nav.joinus-signin {
 .joinus-signin ul {
     font-family: 'PT Sans Narrow', sans-serif;
     display: flex; 
-    position: relative;
-    align-items: flex-end;
 }
   
 .joinus-signin li {
@@ -111,6 +109,91 @@ header a .logo {
     right: 2em;
 }
 
+main {
+    display:grid;
+    grid-template-columns: 15em 1fr;
+}
+
+/* filter */
+
+.filter {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.filter ul li {
+    list-style: none;
+}
+
+.size {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.5em;
+}
+
+.size button {
+    background-color: white;
+    margin: .5em;
+    text-align: center;
+    border:none;
+    box-shadow: rgb(229 229 229) 0px 0px 0px 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 30px;
+    width: 60px;
+}
+
+.kleur ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.kleur li {
+    font-size: 12px;
+}
+
+.kleur button {
+    background-color: white;
+    margin: .5em;
+    border:none;
+    box-shadow: rgb(229 229 229) 0px 0px 0px 1px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+button.kleurzwart {
+    background-color: black;
+}
+
+button.kleurblauw {
+    background-color: blue;
+}
+
+button.kleurbruin {
+    background-color: brown;
+}
+
+button.kleurgrijs {
+    background-color: grey;
+}
+
+button.kleuroranje {
+    background-color: orange;
+}
+
+button.kleurrood {
+    background-color: red;
+}
+
+button.kleurwit {
+    background-color: white;
+}
+    
+
+
 .mainsneakers img {
     width: 100%;
 }
@@ -145,7 +228,6 @@ footer {
     background-color: black;
     color: #919191;
     font-size: 1em;
-    letter-spacing: .05em;
     bottom: 0;
 }
 
@@ -161,7 +243,6 @@ footer h5 {
     text-transform: uppercase;
     font-size: 1em;
     text-align: center;
-    padding-top: 1.5em;
     letter-spacing: 1.6px;
 }
 
@@ -192,19 +273,14 @@ footer form button {
 }
 
 #customer-service {
-    width: 100%;
+    width: 50%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-  
-#customer-service ul {
-    padding: .2em;
-    
+    grid-template-columns: 1fr 1fr 1fr;
 }
   
 #customer-service li {
     list-style-type: none;
-    margin-top: 1.2em;
+    margin-top: .5em;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1em;
     line-height: 25px;
@@ -212,11 +288,10 @@ footer form button {
 
 
 #social-media ul {
-    width: 100%;
     display: flex;
-    padding-left: 0;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    right: 0;
+    margin-right: 3em;
 }
   
 #social-media li{
