@@ -529,6 +529,11 @@ aside#cart-popup > section.buttons > button.primary{
     width: 60px;
 }
 
+#overview .size button.active {
+    box-shadow: black 0px 0px 0px 2px;
+    font-weight: 700;
+}
+
 #overview .kleur ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
