@@ -7,14 +7,14 @@ var names = document.querySelectorAll(".heading h1");
 var forWho = document.querySelectorAll(".heading h2");
 var prices = document.querySelectorAll(".heading span");
 var images = document.querySelector(".images div");
-// var shoeColors = document.querySelector("#shoe-colors");
+var colors = document.querySelector("#shoe-colors");
 
 var html = {
     image: '',
     colors: '',
 };
 
-const getCurrentShoe = function(e) {
+let getCurrentShoe = function(e) {
 
     names.forEach(name => {
         name.innerText = currentShoe.name;
@@ -36,14 +36,12 @@ const getCurrentShoe = function(e) {
     }
     images.innerHTML = html.image;
 
-    let currentShoeColors = currentShoe.colors;
-    for (const key in currentShoeColors) {
-        let colorImage = currentShoeColors[key].image;        
+    let currentcolors = currentShoe.colors;
+    for (const key in currentcolors) {
+        let colorImage = currentcolors[key].image;        
         html.colors += `<a href="#"><img src="${colorImage}" alt=""></a>`;
     }
-
-    // shoeColors.innerHTML = html.colors;
-    document.querySelector("#shoe-colors").innerHTML = html.colors;
+    colors.innerHTML = html.colors;
 }
 
 window.addEventListener('DOMContentLoaded', getCurrentShoe);
