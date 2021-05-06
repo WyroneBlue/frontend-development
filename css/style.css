@@ -83,7 +83,21 @@ p{
     width: 456px;
 }
 
+#detail main > section:nth-of-type(2) > section:first-child{
+    display: flex;
+}
+
 #detail main > section:nth-of-type(2) > section{
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+#detail main > section:nth-of-type(2) > section:nth-of-type(2) span{
+    display: block;
+    margin: 30px 0 10px;
+}
+
+#detail main > section:nth-of-type(2) > section > div{
     display: flex;
     margin-bottom: 30px;
     gap: 10px;
@@ -107,6 +121,10 @@ p{
     border-radius: 10px;
 }
 
+#detail main > section:nth-of-type(2) > section:nth-of-type(2) a img.empty{
+    filter: contrast(0.5);
+}
+
 #detail main > section:nth-of-type(2) > section:nth-of-type(2) a.active img{
     border: 1px solid black;
 }
@@ -114,10 +132,6 @@ p{
 #detail main > section:nth-of-type(2) > section:nth-of-type(3){
     display: block;
 }
-
-/* #detail main > section:nth-of-type(2) > section:nth-of-type(3) > span{ */
-    /* margin-bottom: 5px; */
-/* } */
 
 #detail main > section:nth-of-type(2) > section:nth-of-type(3) > div{
     display: grid;
