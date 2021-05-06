@@ -11,7 +11,7 @@ var shoelist = {
                 image: 'images/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
             },
             1: {
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
                 image: 'images/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
             },
@@ -47,9 +47,19 @@ var shoelist = {
         description: '',
         colors: {
             0: {
-                in_stock: '',
+                in_stock: false,
                 announcement: '',
-                image: '',
+                image: 'images/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
+            },
+            1: {
+                in_stock: true,
+                announcement: '',
+                image: 'images/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
+            },
+            2: {
+                in_stock: true,
+                announcement: '',
+                image: 'images/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
             },
         },
         sizes: {
