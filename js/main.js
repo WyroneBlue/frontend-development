@@ -50,7 +50,6 @@ const scrollForYou = function(e){
             target = e.target.parentNode.parentNode.dataset.scroll_controll
             break;
         default:
-            console.log(e);
             break;          
     }
 
@@ -68,7 +67,7 @@ const deactivateAllSizes = function(){
 }
 
 const setSizeActive = function(e){
-    console.log(e);
+
     if(!e.target.classList.contains('empty')){
         deactivateAllSizes();
         let btn = e.target;
@@ -84,7 +83,7 @@ const deactivateAllColors = function(){
 
 const setColorActive = function(e){
     e.preventDefault();
-    console.log(e);
+
     if(!e.target.classList.contains('empty')){
         deactivateAllColors();
         let img = e.target.parentNode;
