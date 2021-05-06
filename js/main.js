@@ -3,7 +3,6 @@ var forYou = document.querySelector("#for-you div");
 var controls = document.querySelectorAll("#controls > span");
 var shoeSizes = document.querySelectorAll("#shoe-sizes > button");
 var shoeColors = document.querySelectorAll("#shoe-colors > a");
-var addToCart = document.querySelectorAll(".add-to-cart");
 let pos = { top: 0, left: 0, x: 0, y: 0 };
 
 const mouseDownHandler = function(e) {
@@ -92,10 +91,6 @@ const setColorActive = function(e){
     }
 }
 
-const showCartPopup = function(e){
-    alert('Nieuwe item toegevoegd');
-}
-
 forYou.addEventListener('mousedown', mouseDownHandler);
 
 controls.forEach(span => {
@@ -108,8 +103,4 @@ shoeSizes.forEach(button => {
 
 shoeColors.forEach(img => {
     img.addEventListener('click', setColorActive);
-});
-
-addToCart.forEach(btn => {
-    btn.addEventListener('click', showCartPopup);
 });

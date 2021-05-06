@@ -253,6 +253,71 @@ p{
     display: none;
 }
 
+
+aside#cart-popup{
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    padding: 20px;
+    transition: height 1s ease-in-out;
+    border: 1px solid black;
+    background-color: white;
+    transition: top .3s ease-out, opacity .3s ease-out;
+}
+
+aside#cart-popup.show{
+    opacity: 1;
+    transition: top .3s ease-out, opacity .3s ease-out;
+}
+
+aside#cart-popup > button.close{
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+aside#cart-popup > section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside#cart-popup > section > img{
+    position: relative;
+    width: 25%;
+    margin-right: 20px;
+}
+
+aside#cart-popup > section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+aside#cart-popup > section > div > span:nth-of-type(2), aside#cart-popup > section > div > span:nth-of-type(3){
+    color: var(--filters-color);
+}
+
+aside#cart-popup > section.buttons > button{
+    margin-bottom: 10px;
+    padding: 18px 24px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 14px;
+    box-shadow: rgb(229 229 229) 0px 0px 0px 1px;
+}
+
+aside#cart-popup > section.buttons > button.primary{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
 @media screen and (max-width: 1023px) {
 
     #mobile-heading{
