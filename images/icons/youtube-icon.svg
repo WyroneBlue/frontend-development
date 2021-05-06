@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_11_Pro_3">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_11_Pro_3" data-name="iPhone X, XS, 11 Pro – 3" clip-path="url(#clip-iPhone_X_XS_11_Pro_3)">
+    <rect width="50" height="50" fill="rgba(0,0,0,0)"/>
+    <path id="Icon_awesome-youtube" data-name="Icon awesome-youtube" d="M38.648,8.725a4.825,4.825,0,0,0-3.395-3.417c-2.995-.808-15-.808-15-.808s-12.008,0-15,.808A4.825,4.825,0,0,0,1.852,8.725c-.8,3.014-.8,9.3-.8,9.3s0,6.289.8,9.3a4.753,4.753,0,0,0,3.395,3.362c2.995.808,15,.808,15,.808s12.008,0,15-.808a4.753,4.753,0,0,0,3.395-3.362c.8-3.014.8-9.3.8-9.3s0-6.289-.8-9.3ZM16.323,23.737V12.318l10.036,5.71L16.323,23.737Z" transform="translate(4.95 7.5)" fill="#fff"/>
+  </g>
+</svg>

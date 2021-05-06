@@ -412,3 +412,281 @@ aside#cart-popup > section.buttons > button.primary{
         flex-shrink: 0;
     }
 }
+/* overviewpagina */
+
+#overview a {
+    color: black;
+    text-decoration: none;
+}
+
+#overview nav.joinus-signin {
+    background-color: lightgrey;
+    width: 100%;
+    position: relative;
+}
+#overview .joinus-signin ul {
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex; 
+}
+  
+#overview .joinus-signin li {
+    list-style-type: none;
+  }
+  
+#overview .joinus-signin a {
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right-style: solid;
+    border-right-width: 1px;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: .8em;
+    color: black;
+}
+
+#overview .header {
+    display: flex;
+}
+
+
+#overview header button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+}
+  
+#overview header button img {
+    width: 40px;
+    height: 40px;
+}
+  
+#overview .header ul:first-of-type {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#overview .header ul li {
+    padding: 1em;
+    list-style: none;
+    text-align: center;
+}
+  
+#overview header a .logo {
+    width: 75px;
+    height: 55px;
+    align-items: left;
+    margin-left: 2em;
+}
+  
+  
+#overview .search-icon {
+    position: absolute;
+    right: 8em;
+}
+
+#overview .wishlist-icon {
+    position: absolute;
+    right: 5em;
+}
+
+#overview .shopping-bag-icon {
+    position: absolute;
+    right: 2em;
+}
+
+#overview main {
+    display:grid;
+    grid-template-columns: 15em 1fr;
+}
+
+/* filter */
+
+#overview .filter {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#overview .filter ul li {
+    list-style: none;
+}
+
+#overview .size {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.5em;
+}
+
+#overview .size button {
+    background-color: white;
+    margin: .5em;
+    text-align: center;
+    border:none;
+    box-shadow: rgb(229 229 229) 0px 0px 0px 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 30px;
+    width: 60px;
+}
+
+#overview .kleur ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#overview .kleur li {
+    font-size: 12px;
+}
+
+#overview .kleur button {
+    background-color: white;
+    margin: .5em;
+    border:none;
+    box-shadow: rgb(229 229 229) 0px 0px 0px 1px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#overview button.kleurzwart {
+    background-color: black;
+}
+
+#overview button.kleurblauw {
+    background-color: blue;
+}
+
+#overview button.kleurbruin {
+    background-color: brown;
+}
+
+#overview button.kleurgrijs {
+    background-color: grey;
+}
+
+#overview button.kleuroranje {
+    background-color: orange;
+}
+
+#overview button.kleurrood {
+    background-color: red;
+}
+
+#overview button.kleurwit {
+    background-color: white;
+}
+    
+
+
+#overview .mainsneakers img {
+    width: 100%;
+}
+
+#overview .mainsneakers  {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1.75em;
+}
+
+#overview article {
+    position: relative;
+    text-align: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 3em;
+}
+
+#overview article p:first-of-type {
+    color: red;
+}
+  
+#overview h2 {
+    font-size: 1.7em;
+    margin-top: .2em;
+    padding-right: 1em;
+    font-weight: normal;
+    margin-bottom: .4em;
+}
+
+#overview footer {
+    background-color: black;
+    color: #919191;
+    font-size: 1em;
+    bottom: 0;
+}
+
+#overview footer a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#overview footer h5 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 1.6px;
+}
+
+#overview footer form {
+    display: flex;
+}
+  
+#overview footer form input {
+    width: 350px;
+    height: 62px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    margin-top: .5em;
+    outline: none;
+    border-radius: 5em;
+}
+  
+#overview footer form input::placeholder {
+    color: black;
+}
+  
+#overview footer form button {
+    display: none;
+}
+
+#overview #customer-service {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+  
+#overview #customer-service li {
+    list-style-type: none;
+    margin-top: .5em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+
+#overview #social-media ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 3em;
+}
+  
+#overview #social-media li{
+    list-style-type: none;
+    padding: .7em;
+}
+  
+#overview #social-media li img {
+    width: 23px;
+    height: 23px;
+}
