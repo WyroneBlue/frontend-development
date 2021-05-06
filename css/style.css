@@ -255,23 +255,21 @@ p{
 
 
 aside#cart-popup{
-    visibility: hidden;
     opacity: 0;
     position: absolute;
     top: 20px;
     right: 20px;
     width: 300px;
+    padding: 20px;
     transition: height 1s ease-in-out;
+    border: 1px solid black;
     background-color: white;
-    transition: visibility 0s, opacity 0.5s linear;
+    transition: top .3s ease-out, opacity .3s ease-out;
 }
 
 aside#cart-popup.show{
-    visibility: visible;
     opacity: 1;
-    padding: 20px;
-    border: 1px solid black;
-    transition: height 1s ease-in-out;
+    transition: top .3s ease-out, opacity .3s ease-out;
 }
 
 aside#cart-popup > button.close{
