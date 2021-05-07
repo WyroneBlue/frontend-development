@@ -1,5 +1,6 @@
 var shoelist = [
     {
+        id: 0,
         name: 'Nike Air Zoom Pegasus 38',
         for: 'Hardloopschoen voor heren',
         price: 119.99,
@@ -33,38 +34,38 @@ var shoelist = [
             'blauw',
             'wit',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
             1:'images/sneakers/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
@@ -73,6 +74,7 @@ var shoelist = [
         },
     },
     {
+        id: 1,
         name: 'Lunar Force 1 Acronym',
         for: 'Hardloopschoen voor heren',
         price: 200.00,
@@ -101,38 +103,38 @@ var shoelist = [
             'rood',
             'oranje',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/nike-air-force-1-acronym.jpg',
             1:'images/sneakers/nike-air-force-1-acronym.jpg',
@@ -141,6 +143,7 @@ var shoelist = [
         },
     },
     {
+        id: 2,
         name: 'Dunk High x AMBUSH Black',
         for: 'Hardloopschoen voor heren',
         price: 179.99,
@@ -169,38 +172,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/dunk-high-x-ambush-black.jpg',
             1:'images/sneakers/dunk-high-x-ambush-black.jpg',
@@ -209,6 +212,7 @@ var shoelist = [
         },
     },
     {
+        id: 3,
         name: 'Nike Air Force 1 LXX',
         for: 'Hardloopschoen voor heren',
         price: 109.99,
@@ -237,38 +241,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-force-1-lxx-shoe-Q4pP8V.png.jpeg',
             1:'images/sneakers/air-force-1-lxx-shoe-Q4pP8V.png.jpeg',
@@ -277,6 +281,7 @@ var shoelist = [
         },
     },
     {
+        id: 4,
         name: 'Nike Air Zoom Pegasus',
         for: 'Hardloopschoen voor heren',
         price: 119.99,
@@ -305,38 +310,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-zoom-pegasus-38-running-shoe-GVlNV5.png.jpeg',
             1:'images/sneakers/air-zoom-pegasus-38-running-shoe-GVlNV5.png.jpeg',
@@ -345,6 +350,7 @@ var shoelist = [
         },
     },
     {
+        id: 5,
         name: 'Nike Air Force 1 Low',
         for: 'Hardloopschoen voor heren',
         price: 109.99,
@@ -373,38 +379,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-force-1-low-shoe-gvG9vB.png.jpeg',
             1:'images/sneakers/air-force-1-low-shoe-gvG9vB.png.jpeg',
@@ -413,6 +419,7 @@ var shoelist = [
         },
     },
     {
+        id: 6,
         name: 'Nike Air Max 90 G',
         for: 'Hardloopschoen voor heren',
         price: 139.99,
@@ -441,38 +448,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-max-90-g-golf-shoe-zCm8W1.png.jpeg',
             1:'images/sneakers/air-max-90-g-golf-shoe-zCm8W1.png.jpeg',
@@ -481,6 +488,7 @@ var shoelist = [
         },
     },
     {
+        id: 7,
         name: 'Air Force 1 Pastel Reveal',
         for: 'Hardloopschoen voor heren',
         price: 119.99,
@@ -509,38 +517,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/women-s-air-force-1-pastel-reveal-release-date.jpg',
             1:'images/sneakers/women-s-air-force-1-pastel-reveal-release-date.jpg',
@@ -549,6 +557,7 @@ var shoelist = [
         },
     },
     {
+        id: 8,
         name: 'Nike Air Max 95',
         for: 'Hardloopschoen voor heren',
         price: 169.99,
@@ -577,38 +586,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-max-95-shoe-s1vKMc.png.jpeg',
             1:'images/sneakers/air-max-95-shoe-s1vKMc.png.jpeg',
@@ -617,6 +626,7 @@ var shoelist = [
         },
     },
     {
+        id: 9,
         name: 'Air Jordan 1 Hi FlyEasek',
         for: 'Hardloopschoen voor heren',
         price: 159.99,
@@ -645,38 +655,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg',
             1:'images/sneakers/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg',
@@ -685,6 +695,7 @@ var shoelist = [
         },
     },
     {
+        id: 10,
         name: 'Air Jordan 1 Low',
         for: 'Hardloopschoen voor heren',
         price: 129.99,
@@ -713,38 +724,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg',
             1:'images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg',
