@@ -77,56 +77,39 @@ const filterPrice = function(){
     }
 }
 
-const filterSize = function(){
+// const filterSize = function(){
     
-    let sizeFilters = Object.keys(filters.size).map(function(key, index) {
-        return parseInt(filters.size[key].textContent);
-    });
+//     let sizeFilters = Object.keys(filters.size).map(function(key, index) {
+//         return parseInt(filters.size[key].textContent);
+//     });
 
-    if(sizeFilters.length > 0){
+//     if(sizeFilters.length > 0){
         
-        let shoes = []; 
-        // sizeFilters.filter((filter) => {
+//         let shoes = []; 
+//         sizeFilters.filter((filter) => {
 
-        //     let found = false;
-        //     Object.values(filteredShoes).filter(function(key, index) {
+//             Object.values(filteredShoes).filter(function(key, index) {
                 
-        //         let sizes = filteredShoes[index].sizes;
-        //         Object.values(sizes).filter(function(key_2, index_2) {
+//                 let found = false;
+//                 let sizes = filteredShoes[index].sizes;
+//                 Object.values(sizes).filter(function(key_2, index_2) {
                     
-        //             let size = key_2.size;
-        //             if(sizeFilters.includes(size) && found == false){
-        //                 found = true;
-        //                 return shoes.push(filteredShoes[index]);
-        //             }
-        //         });
-        //     });
-        // });
-
-        sizeFilters.filter((filter) => {
-
-            Object.values(filteredShoes).filter(function(key, index) {
-                
-                let found = false;
-                let sizes = filteredShoes[index].sizes;
-                Object.values(sizes).filter(function(key_2, index_2) {
-                    
-                    let size = key_2.size;
-                    if(sizeFilters.includes(size) && found == false){
-                        found = true;
-                        return shoes.push(filteredShoes[index]);
-                    }
-                });
-            });
-        });
+//                     let size = key_2.size;
+//                     if(sizeFilters.includes(size) && found == false){
+//                         found = true;
+//                         return shoes.push(filteredShoes[index]);
+//                     }
+//                 });
+//             });
+//         });
         
-        filteredShoes = shoes
-    }
-}
+//         filteredShoes = shoes
+//     }
+// }
 
-const filterColor = function(e){
-    return e.price > 115
-}
+// const filterColor = function(e){
+//     return e.price > 115
+// }
 
 const checkFilters = function(e){
 
