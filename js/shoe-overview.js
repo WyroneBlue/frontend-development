@@ -22,7 +22,7 @@ const filterSex = function(e){
 
     if(sexfilters.length > 0){
 
-        let shoes = []
+        let shoes = [];
         Object.values(filteredShoes).filter(function(key, index) {
             if(sexfilters.includes(filteredShoes[index].sex) == true || sexfilters.length == 0){
                 return shoes.push(filteredShoes[index]);
@@ -100,10 +100,10 @@ const loadShoes = function(e){
         
         shoeHtml += `
         <article>
-        <img src="${shoe.images[0]}" alt="">
-        <p>${shoe.msg ?? ''}</p>
-        <h2>${shoe.name}</h2>
-        <p>€ ${shoe.price}</p>
+            <img src="${shoe.images[0]}" alt="">
+            <p>${shoe.msg ?? ''}</p>
+            <h2>${shoe.name}</h2>
+            <p>€ ${shoe.price}</p>
         </article>
         `;
     });
