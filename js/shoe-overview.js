@@ -23,6 +23,9 @@ const goToDetail = function(e){
     let link =  'shoe.html?shoe_id=' + id;
     location.href = link;
 }
+
+const filterSex = function(){
+
     let sexfilters = Object.keys(filters.sex).map(function(key, index) {
         return filters.sex[key].value;
     });
@@ -40,14 +43,14 @@ const goToDetail = function(e){
     }
 }
 
-const filterPrice = function(e){
+const filterPrice = function(){
 
     let pricefilters = Object.keys(filters.price).map(function(key, index) {
         return filters.price[key].value;
     });
 
     if(pricefilters.length > 0){
-
+        
         pricefilters = Object.values(pricefilters).map(function(key, index) {
             return pricefilters[index].split("-");
         });
@@ -55,25 +58,76 @@ const filterPrice = function(e){
         
         let shoes = [];
         pricefilters.filter((filter) => {
-            Object.values(filteredShoes).filter(function(key, index) {
+
+            if(filter.length > 1){
                 
-                if((filter[0] < filteredShoes[index].price && filter[1] > filteredShoes[index].price) || pricefilters.length == 0 ){            
-                    // console.log(filteredShoes[index]);
-                    return shoes.push(filteredShoes[index]);
-                }
-            });
+                Object.values(filteredShoes).filter(function(key, index) {
+                    
+                    if((filter[0] < filteredShoes[index].price && filter[1] > filteredShoes[index].price) || pricefilters.length == 0 ){            
+                        // console.log(filteredShoes[index]);
+                        return shoes.push(filteredShoes[index]);
+                    }
+                });
+            } else {
+
+                Object.values(filteredShoes).filter(function(key, index) {
+
+                    if(parseInt(filter[0]) < filteredShoes[index].price){            
+                        return shoes.push(filteredShoes[index]);
+                    }
+                });
+
+            }
         });
         filteredShoes = shoes
     }
 }
 
+const filterSize = function(){
+    
+    let sizeFilters = Object.keys(filters.size).map(function(key, index) {
+        return parseInt(filters.size[key].textContent);
+    });
 
-const activateButton = function(e){
-    e.target.classList.toggle('active');
-}
+    if(sizeFilters.length > 0){
+        
+        let shoes = []; 
+        // sizeFilters.filter((filter) => {
 
-const filterSize = function(e){
-    return e.price > 115
+        //     let found = false;
+        //     Object.values(filteredShoes).filter(function(key, index) {
+                
+        //         let sizes = filteredShoes[index].sizes;
+        //         Object.values(sizes).filter(function(key_2, index_2) {
+                    
+        //             let size = key_2.size;
+        //             if(sizeFilters.includes(size) && found == false){
+        //                 found = true;
+        //                 return shoes.push(filteredShoes[index]);
+        //             }
+        //         });
+        //     });
+        // });
+
+        sizeFilters.filter((filter) => {
+
+            Object.values(filteredShoes).filter(function(key, index) {
+                
+                let found = false;
+                let sizes = filteredShoes[index].sizes;
+                Object.values(sizes).filter(function(key_2, index_2) {
+                    
+                    let size = key_2.size;
+                    if(sizeFilters.includes(size) && found == false){
+                        found = true;
+                        return shoes.push(filteredShoes[index]);
+                    }
+                });
+            });
+        });
+        
+        filteredShoes = shoes
+    }
 }
 
 const filterColor = function(e){
@@ -119,8 +173,15 @@ const loadShoes = function(e){
 
 filterContainer.addEventListener('change', loadShoes);
 window.addEventListener('DOMContentLoaded', loadShoes);
+window.addEventListener('DOMContentLoaded', loadShoes);
 
 sizeButtons.forEach(btn => {
     btn.addEventListener('click', activateButton);
+    btn.addEventListener('click', loadShoes);
+});
+
+colorButtons.forEach(btn => {
+    btn.addEventListener('click', activateButton);
+    btn.addEventListener('click', loadShoes);
 });
 
