@@ -18,6 +18,11 @@ const activateButton = function(e){
     e.target.classList.toggle('active');
 }
 
+const goToDetail = function(e){
+    let id = e.dataset.id;
+    let link =  'shoe.html?shoe_id=' + id;
+    location.href = link;
+}
     let sexfilters = Object.keys(filters.sex).map(function(key, index) {
         return filters.sex[key].value;
     });
@@ -101,7 +106,7 @@ const loadShoes = function(e){
     filteredShoes.forEach(shoe => {
         
         shoeHtml += `
-        <article>
+        <article onclick="goToDetail(this)" data-id="${shoe.id}">
             <img src="${shoe.images[0]}" alt="">
             <p>${shoe.msg ?? ''}</p>
             <h2>${shoe.name}</h2>
