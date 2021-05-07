@@ -1,9 +1,9 @@
 console.log('Overview js');
 
-// console.log(shoelist);
 var shoeContainer = document.querySelector('.mainsneakers');
 var filterContainer = document.querySelector('.filter');
 var sizeButtons = document.querySelectorAll('.size button');
+var colorButtons = document.querySelectorAll('.kleur button');
 let shoeHtml = '';
 let filteredShoes = [];
 
@@ -14,7 +14,9 @@ var filters = {
     color: [],
 }
 
-const filterSex = function(e){
+const activateButton = function(e){
+    e.target.classList.toggle('active');
+}
 
     let sexfilters = Object.keys(filters.sex).map(function(key, index) {
         return filters.sex[key].value;
