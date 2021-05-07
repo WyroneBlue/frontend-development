@@ -412,3 +412,357 @@ aside#cart-popup > section.buttons > button.primary{
         flex-shrink: 0;
     }
 }
+/* overviewpagina */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav.joinus-signin {
+    background-color: lightgrey;
+}
+
+.joinus-signin ul {
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex; 
+    margin: 0;
+}
+  
+.joinus-signin li {
+    list-style-type: none;
+  }
+  
+.joinus-signin a {
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right-style: solid;
+    border-right-width: 1px;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: .8em;
+    color: black;
+}
+
+.header {
+    display: flex;
+    margin-top: 1em;
+}
+
+
+header button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+}
+  
+header button img {
+    width: 30px;
+    height: 30px;
+}
+  
+.header ul:first-of-type {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header ul li {
+    padding: 1em;
+    list-style: none;
+    text-align: center;
+}
+  
+header a .logo {
+    width: 75px;
+    height: 55px;
+    align-items: left;
+    margin-left: 2em;
+}
+  
+.search-icon {
+    position: absolute;
+    right: 8em;
+}
+
+.wishlist-icon {
+    position: absolute;
+    right: 5em;
+}
+
+.shopping-bag-icon {
+    position: absolute;
+    right: 2em;
+}
+
+#overview main {
+    display:grid;
+    grid-template-columns: 15em 1fr;
+}
+
+/* filter */
+
+.categories {
+    padding-inline-start: .7em;
+}
+
+.categories li {
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+
+ul.categories, ul.geslacht, ul.prijs, .size {
+    border-bottom: solid black 1px;
+    padding-bottom: 1em;
+}
+
+.filter h3 {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.filter {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.filter ul li {
+    list-style: none;
+}
+
+ul.geslacht {
+    padding-inline-start: .1em;
+    align-content: right;
+}
+
+ul.prijs {
+    padding-inline-start: .1em;
+    align-content: right;
+}
+
+input[type=checkbox] + label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid black;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    vertical-align: center;
+    color: transparent;
+    transition: .1s;
+
+}
+
+input[type=checkbox] + label:active:before {
+    transform: scale(0.5s);
+}
+
+input[type=checkbox]:checked + label:before {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.size {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.size button {
+    background-color: white;
+    margin: .5em;
+    text-align: center;
+    border:none;
+    box-shadow: rgb(229 229 229) 0px 0px 0px 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 30px;
+    width: 60px;
+}
+
+.size button.active {
+    box-shadow: black 0px 0px 0px 2px;
+    font-weight: 700;
+}
+
+.kleur ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-inline-start: .7em;
+}
+
+.kleur li {
+    font-size: 12px;
+}
+
+.kleur button {
+    background-color: white;
+    margin: .5em;
+    border:none;
+    box-shadow: rgb(229 229 229) 0px 0px 0px 1px;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+}
+
+button.kleurzwart {
+    background-color: black;
+}
+
+button.kleurgroen {
+    background-color: green;
+}
+
+button.kleurblauw {
+    background-color: blue;
+}
+
+button.kleurbruin {
+    background-color: brown;
+}
+
+button.kleurgrijs {
+    background-color: grey;
+}
+
+button.kleuroranje {
+    background-color: orange;
+}
+
+button.kleurrood {
+    background-color: red;
+}
+
+.mainsneakers img {
+    width: 100%;
+    height: 80%;
+}
+
+.mainsneakers  {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1.75em;
+    margin-top: 0;
+    row-gap: 15px;
+}
+
+article {
+    position: relative;
+    text-align: left;
+    height: 35em;
+}
+
+article p:first-of-type {
+    color: red;
+}
+  
+h2 {
+    font-size: 1.7em;
+    margin-top: .2em;
+    padding-right: 1em;
+    font-weight: normal;
+    margin-bottom: .4em;
+}
+
+article p {
+    margin-bottom: 0;
+    line-height: 1em;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: #919191;
+    font-size: 1em;
+    bottom: 0;
+    display: grid;
+}
+
+footer a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+footer form {
+    position: absolute;
+    right: 0;
+    margin-right: 4.5em;
+    margin-top: 2em;
+}
+  
+footer form input {
+    width: 300px;
+    height: 55px;
+    background-color: white;
+    padding-left: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    margin-top: .5em;
+    outline: none;
+    border-radius: 5em;
+   
+}
+  
+footer form input::placeholder {
+    color: black;
+}
+  
+footer form button {
+    display: none;
+}
+
+#customer-service {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+  
+#customer-service li {
+    list-style-type: none;
+    margin-top: .5em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+.social-media {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 6em;
+    margin-top: 8em;
+}
+  
+.social-media li{
+    list-style-type: none;
+    padding: .7em;
+}
+  
+.social-media li img {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    padding: .5em;
+}
+
