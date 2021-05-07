@@ -34,12 +34,6 @@ const setColorActive = function(e){
     }
 }
 
-const goToDetail = function(e){
-    let id = e.dataset.id;
-    let link =  'shoe.html?shoe_id=' + id;
-    location.href = link;
-}
-
 window.addEventListener('DOMContentLoaded', function(){
     
     shoeSizes = document.querySelectorAll("#shoe-sizes > button");

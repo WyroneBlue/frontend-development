@@ -18,6 +18,12 @@ var html = {
     colors: '',
 };
 
+const goToDetail = function(e){
+    let id = e.dataset.id;
+    let link =  'shoe.html?shoe_id=' + id;
+    location.href = link;
+}
+
 const mouseDownHandler = function(e) {
     forYou.style.cursor = 'grabbing';
     forYou.style.userSelect = 'none';
