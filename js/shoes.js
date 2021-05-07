@@ -33,38 +33,38 @@ var shoelist = [
             'blauw',
             'wit',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
             1:'images/sneakers/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg',
@@ -101,38 +101,38 @@ var shoelist = [
             'rood',
             'oranje',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/nike-air-force-1-acronym.jpg',
             1:'images/sneakers/nike-air-force-1-acronym.jpg',
@@ -169,38 +169,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/dunk-high-x-ambush-black.jpg',
             1:'images/sneakers/dunk-high-x-ambush-black.jpg',
@@ -237,38 +237,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-force-1-lxx-shoe-Q4pP8V.png.jpeg',
             1:'images/sneakers/air-force-1-lxx-shoe-Q4pP8V.png.jpeg',
@@ -305,38 +305,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-zoom-pegasus-38-running-shoe-GVlNV5.png.jpeg',
             1:'images/sneakers/air-zoom-pegasus-38-running-shoe-GVlNV5.png.jpeg',
@@ -373,38 +373,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-force-1-low-shoe-gvG9vB.png.jpeg',
             1:'images/sneakers/air-force-1-low-shoe-gvG9vB.png.jpeg',
@@ -441,38 +441,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-max-90-g-golf-shoe-zCm8W1.png.jpeg',
             1:'images/sneakers/air-max-90-g-golf-shoe-zCm8W1.png.jpeg',
@@ -509,38 +509,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/women-s-air-force-1-pastel-reveal-release-date.jpg',
             1:'images/sneakers/women-s-air-force-1-pastel-reveal-release-date.jpg',
@@ -577,38 +577,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-max-95-shoe-s1vKMc.png.jpeg',
             1:'images/sneakers/air-max-95-shoe-s1vKMc.png.jpeg',
@@ -645,38 +645,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg',
             1:'images/sneakers/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg',
@@ -713,38 +713,38 @@ var shoelist = [
             'grijs',
             'zwart',
         ],
-        sizes: {
-            0: {
+        sizes: [
+            {
                 size: 38,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 40,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 41,
                 in_stock: false,
                 announcement: '',
             },
-            0: {
+            {
                 size: 45,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 46,
                 in_stock: true,
                 announcement: '',
             },
-            0: {
+            {
                 size: 47,
                 in_stock: false,
                 announcement: '',
             },
-        },
+        ],
         images: {
             0:'images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg',
             1:'images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg',
