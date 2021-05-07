@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,9 +7,253 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h1>Hello world</h1>
-    <p>Dit wordt de homepagina</p>
+
+<body id="overview">
+
+    <header>
+
+        <nav class="joinus-signin">
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </nav>
+
+        <nav class="header">
+            <a href="index.html"><img class="logo" src="images/nike-logo.svg" alt="Logo van de website"></a>
+            <ul>
+                <li><a href="#">Nieuwste releases</a></li>
+                <li><a href="#">Heren</a></li>
+                <li><a href="#">Dames</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Collecties</a></li>
+            </ul>
+
+            <ul class="search-wish-shopping">
+                <button class="search-icon"><img src="images/icons/searchicon.svg" alt="search-icon"></button>
+                <button class="wishlist-icon"><img src="images/icons/wishlisticoon.svg" alt="hartje"></button>
+                <button class="shopping-bag-icon"><img src="images/icons/shoppingbagsicon.svg" alt="shopping-bag-icon" title="shopping bag"></button>
+            </ul>
+            
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="filter">
+
+            <ul class="categories">
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Jordan</a></li>
+                <li><a href="#">Hardlopen</a></li>
+                <li><a href="#">Basketbal</a></li>
+                <li><a href="#">Voetbal</a></li>
+            </ul>
+
+            <h3>Geslacht</h3>
+            <ul class="geslacht">
+                <li>
+                    <input type="checkbox" id="heren" name="heren" value="heren"/>
+                    <label for="heren">Heren</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="dames" name="dames" value="dames"/>
+                    <label for="dames">Dames</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="unisex" name="unisex" value="unisex"/>
+                    <label for="unisex">Unisex</label>
+                </li>
+            </ul>
+
+            <h3>Shop op prijs</h3>
+            <ul class="prijs">
+                <li>
+                    <input type="checkbox" id="0-50" name="0-50" value="0-50"/>
+                    <label for="0-50">€0 - €50</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="50-100" name="50-100" value="50-100"/>
+                    <label for="50-100">€50 - €100</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="100-150" name="100-150" value="100-150"/>
+                    <label for="100-150">€100 - €150</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="150+" name="150+" value="150+"/>
+                    <label for="150+">€150+</label>
+                </li>
+            </ul>
+
+            <h3>Size</h3>
+            <section class="size">
+                <button>38</button>
+                <button>39</button>
+                <button>40</button>
+                <button>41</button>
+                <button>42</button>
+                <button>43</button>
+                <button>44</button>
+                <button>45</button>
+                <button>46</button>
+            </section>
+
+            <h3>Kleur</h3>
+            <section class="kleur">
+                <ul>
+                    <li><button class="kleurzwart"></button>Zwart</li>
+                    <li><button class="kleurgroen"></button>Groen</li>
+                    <li><button class="kleurblauw"></button>Blauw</li>
+                    <li><button class="kleurbruin"></button>Bruin</li>
+                    <li><button class="kleurgrijs"></button>Grijs</li>
+                    <li><button class="kleuroranje"></button>Oranje</li>
+                    <li><button class="kleurrood"></button>Rood</li>
+                </ul>
+                
+            </section>
+                
+        </section>
+
+        <section class="mainsneakers">
+
+            <article class="sneaker1">
+                <img src="images/sneakers/air-zoom-pegasus-38-hardloopschoen-heren-jRRc9F.jpg" alt="">
+                <p>Promo Exclusion</p>
+                <h2>Nike Air Zoom Pegasus 38</h2>
+                <p>€ 119,99</p>
+            </article>
+
+            <article class="sneaker2">
+                <img src="images/sneakers/nike-air-force-1-acronym.jpg" alt="">
+                <p>Coming Soon</p>
+                <h2>Lunar Force 1 Acronym</h2>
+                <p>€ 200,00</p>
+            </article>
+
+            <article class="sneaker3">
+                <img src="images/sneakers/dunk-high-x-ambush-black.jpg" alt="">
+                <p>Just In</p>
+                <h2>Dunk High x AMBUSH Black</h2>
+                <p>€ 179,99</p>
+            </article>
+
+            <article class="sneaker4">
+                <img src="images/sneakers/air-force-1-lxx-shoe-Q4pP8V.png.jpeg" alt="">
+                <p>Just In</p>
+                <h2>Nike Air Force 1 LXX</h2>
+                <p>€ 109,99</p>
+            </article>
+
+            <article class="sneaker5">
+                <img src="images/sneakers/air-zoom-pegasus-38-running-shoe-GVlNV5.png.jpeg" alt="">
+                <p>Promo Exclusion</p>
+                <h2>Nike Air Zoom Pegasus 38</h2>
+                <p>€ 119,99</p>
+            </article>
+
+            <article class="sneaker6">
+                <img src="images/sneakers/air-force-1-low-shoe-gvG9vB.png.jpeg" alt="">
+                <p>Promo Exclusion</p>
+                <h2>Nike Air Force 1 Low</h2>
+                <p>€ 109,99</p>
+            </article>
+
+            <article class="sneaker7">
+                <img src="images/sneakers/air-max-90-g-golf-shoe-zCm8W1.png.jpeg" alt="">
+                <p>Just In</p>
+                <h2>Nike Air Max 90 G</h2>
+                <p>€ 139,99</p>
+            </article>
+
+            <article class="sneaker8">
+                <img src="images/sneakers/air-max-plus-shoe-J8G4pG.png.jpeg" alt="">
+                <p>Promo Exclusion</p>
+                <h2>Nike Air Max Plus</h2>
+                <p>€ 169,99</p>
+            </article>
+
+            <article class="sneaker9">
+                <img src="images/sneakers/women-s-air-force-1-pastel-reveal-release-date.jpg" alt="">
+                <p>Launching in SNKRS</p>
+                <h2>Air Force 1 Pastel Reveal</h2>
+                <p>€ 119,99</p>
+            </article>
+
+            <article class="sneaker10">
+                <img src="images/sneakers/air-max-95-shoe-s1vKMc.png.jpeg" alt="">
+                <p>Coming Soon</p>
+                <h2>Nike Air Max 95</h2>
+                <p>€ 169,99</p>
+            </article>
+
+            <article class="sneaker11">
+                <img src="images/sneakers/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg" alt="">
+                <p>Promo Exclusion</p>
+                <h2>Air Jordan 1 Hi FlyEasek</h2>
+                <p>€ 159,99</p>
+            </article>
+
+            <article class="sneaker12">
+                <img src="images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg" alt="">
+                <p>Launching in SNKRS</p>
+                <h2>Air Jordan 1 Low</h2>
+                <p>€ 129,99</p>
+            </article>
+        </section>
+        
+    </main>
+
+    <footer>
+
+        <section id="customer-service">
+
+            <ul>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Find A Store</a></li>
+                <li><a href="#">Become A Member</a></li>
+                <li><a href="#">Student Discount</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        
+            <ul>
+                <li>Get Help</li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Shipping and Delivery</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Payment Options</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <ul>
+                <li>About Us</li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Sustainability</a></li>
+            </ul>
+
+        </section>
+        
+        <form action="#">
+            <input type="email" id="email" placeholder="Email Address *" name="email">
+            <button type="submit">Subscribe</button>
+        </form>
+            
+        <ul class="social-media">
+            <li><a href="#"><img src="images/icons/facebook-icon.svg" alt="facebook-icon"></a></li>
+            <li><a href="#"><img src="images/icons/instagram-icon.svg" alt="instagram-icon"></a></li>
+            <li><a href="#"><img src="images/icons/youtube-icon.svg" alt="youtube-icon"></a></li>
+            <li><a href="#"><img src="images/icons/twitter-icon.svg" alt="twitter-icon"></a></li>
+        </ul>
+
+    </footer>
+    
+    <script src="js/shoes.js"></script>
+    <script src="js/shoe-overview.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
