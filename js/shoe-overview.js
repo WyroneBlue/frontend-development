@@ -85,7 +85,7 @@ const checkFilters = function(e){
     filters.sex = document.querySelectorAll('.geslacht input:checked');
     filters.price = document.querySelectorAll('.prijs input:checked');
     filters.size = document.querySelectorAll('.size button.active');
-    filters.color = document.querySelectorAll('.kleur input:checked');
+    filters.color = document.querySelectorAll('.kleur input.active');
 }
 
 const filterShoes = function(e){
