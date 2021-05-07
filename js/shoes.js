@@ -106,17 +106,17 @@ var shoelist = [
         sizes: [
             {
                 size: 38,
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
             },
             {
                 size: 40,
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
             },
             {
                 size: 41,
-                in_stock: false,
+                in_stock: true,
                 announcement: '',
             },
             {
@@ -131,7 +131,7 @@ var shoelist = [
             },
             {
                 size: 47,
-                in_stock: false,
+                in_stock: true,
                 announcement: '',
             },
         ],
@@ -175,7 +175,7 @@ var shoelist = [
         sizes: [
             {
                 size: 38,
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
             },
             {
@@ -190,17 +190,17 @@ var shoelist = [
             },
             {
                 size: 45,
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
             },
             {
                 size: 46,
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
             },
             {
                 size: 47,
-                in_stock: false,
+                in_stock: true,
                 announcement: '',
             },
         ],
@@ -254,7 +254,7 @@ var shoelist = [
             },
             {
                 size: 41,
-                in_stock: false,
+                in_stock: true,
                 announcement: '',
             },
             {
@@ -264,7 +264,7 @@ var shoelist = [
             },
             {
                 size: 46,
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
             },
             {
@@ -313,7 +313,7 @@ var shoelist = [
         sizes: [
             {
                 size: 38,
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
             },
             {
@@ -323,7 +323,7 @@ var shoelist = [
             },
             {
                 size: 41,
-                in_stock: false,
+                in_stock: true,
                 announcement: '',
             },
             {
@@ -504,12 +504,12 @@ var shoelist = [
             1: {
                 in_stock: true,
                 announcement: '',
-                image: 'images/women-s-air-force-1-pastel-reveal-release-date.jpg',
+                image: 'images/sneakers/women-s-air-force-1-pastel-reveal-release-date.jpg',
             },
             2: {
                 in_stock: true,
                 announcement: '',
-                image: 'images/women-s-air-force-1-pastel-reveal-release-date.jpg',
+                image: 'images/sneakers/women-s-air-force-1-pastel-reveal-release-date.jpg',
             },
         },
         color_list:[
@@ -573,12 +573,12 @@ var shoelist = [
             1: {
                 in_stock: true,
                 announcement: '',
-                image: 'images/air-max-95-shoe-s1vKMc.png.jpeg',
+                image: 'images/sneakers/air-max-95-shoe-s1vKMc.png.jpeg',
             },
             2: {
-                in_stock: true,
+                in_stock: false,
                 announcement: '',
-                image: 'images/air-max-95-shoe-s1vKMc.png.jpeg',
+                image: 'images/sneakers/air-max-95-shoe-s1vKMc.png.jpeg',
             },
         },
         color_list:[
@@ -598,12 +598,12 @@ var shoelist = [
                 announcement: '',
             },
             {
-                size: 41,
+                size: 42,
                 in_stock: false,
                 announcement: '',
             },
             {
-                size: 45,
+                size: 43,
                 in_stock: true,
                 announcement: '',
             },
@@ -642,12 +642,12 @@ var shoelist = [
             1: {
                 in_stock: true,
                 announcement: '',
-                image: 'images/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg',
+                image: 'images/sneakers/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg',
             },
             2: {
                 in_stock: true,
                 announcement: '',
-                image: 'images/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg',
+                image: 'images/sneakers/air-jordan-1-hi-flyease-shoe-7J4Sf9.png.jpeg',
             },
         },
         color_list:[
@@ -667,13 +667,8 @@ var shoelist = [
                 announcement: '',
             },
             {
-                size: 41,
+                size: 42,
                 in_stock: false,
-                announcement: '',
-            },
-            {
-                size: 45,
-                in_stock: true,
                 announcement: '',
             },
             {
@@ -683,6 +678,11 @@ var shoelist = [
             },
             {
                 size: 47,
+                in_stock: true,
+                announcement: '',
+            },
+            {
+                size: 48,
                 in_stock: false,
                 announcement: '',
             },
@@ -704,19 +704,24 @@ var shoelist = [
         msg: 'Launching in SNKRS',
         colors: {
             0: {
-                in_stock: false,
+                in_stock: true,
                 announcement: '',
                 image: 'images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg',
             },
             1: {
                 in_stock: true,
                 announcement: '',
-                image: 'images/air-jordan-1-low-to-my-first-coach-release-date.jpg',
+                image: 'images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg',
             },
             2: {
+                in_stock: false,
+                announcement: '',
+                image: 'images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg',
+            },
+            3: {
                 in_stock: true,
                 announcement: '',
-                image: 'images/air-jordan-1-low-to-my-first-coach-release-date.jpg',
+                image: 'images/sneakers/air-jordan-1-low-to-my-first-coach-release-date.jpg',
             },
         },
         color_list:[
