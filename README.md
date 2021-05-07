@@ -40,13 +40,19 @@ In ons eindproduct zijn een aantal UI Principles verwerkt.
 
 Houd secundaire acties secundair door ze visueel lichter te maken of laat ze pas zien nadat de primaire actie is uitgevoerd.
 
+</br>
+
 ### Principle 2 | Provide a natural next step
 
 Laat een persoon niet hangen nadat ze hebben gedaan wat je wilt. Geef ze een natuurlijke volgende stap die ze helpt hun verdere doelen te bereiken.
 
+</br>
+
 ### Principle 3 | Appearance follows behaviour
 
 Vorm volgt functie. In de praktijk betekent dit dat iemand moet kunnen voorspellen hoe een interface-element werkt door er alleen maar naar te kijken.
+
+</br>
 
 ### Principle 4 | Consistency matters
 
