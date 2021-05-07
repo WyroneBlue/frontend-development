@@ -414,7 +414,7 @@ aside#cart-popup > section.buttons > button.primary{
 }
 /* overviewpagina */
 
-#overview a {
+a {
     color: black;
     text-decoration: none;
 }
@@ -481,7 +481,6 @@ header a .logo {
     margin-left: 2em;
 }
   
-  
 .search-icon {
     position: absolute;
     right: 8em;
@@ -492,7 +491,7 @@ header a .logo {
     right: 5em;
 }
 
-#overview .shopping-bag-icon {
+.shopping-bag-icon {
     position: absolute;
     right: 2em;
 }
@@ -584,7 +583,7 @@ input[type=checkbox]:checked + label:before {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#overview .size button {
+.size button {
     background-color: white;
     margin: .5em;
     text-align: center;
@@ -596,23 +595,23 @@ input[type=checkbox]:checked + label:before {
     width: 60px;
 }
 
-#overview .size button.active {
+.size button.active {
     box-shadow: black 0px 0px 0px 2px;
     font-weight: 700;
 }
 
-#overview .kleur ul{
+.kleur ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     padding-inline-start: .7em;
 }
 
-#overview .kleur li {
+.kleur li {
     font-size: 12px;
 }
 
-#overview .kleur button {
+.kleur button {
     background-color: white;
     margin: .5em;
     border:none;
@@ -622,7 +621,7 @@ input[type=checkbox]:checked + label:before {
     width: 28px;
 }
 
-#overview button.kleurzwart {
+button.kleurzwart {
     background-color: black;
 }
 
@@ -634,28 +633,28 @@ button.kleurblauw {
     background-color: blue;
 }
 
-#overview button.kleurbruin {
+button.kleurbruin {
     background-color: brown;
 }
 
-#overview button.kleurgrijs {
+button.kleurgrijs {
     background-color: grey;
 }
 
-#overview button.kleuroranje {
+button.kleuroranje {
     background-color: orange;
 }
 
-#overview button.kleurrood {
+button.kleurrood {
     background-color: red;
 }
 
-#overview .mainsneakers img {
+.mainsneakers img {
     width: 100%;
     height: 80%;
 }
 
-#overview .mainsneakers  {
+.mainsneakers  {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-gap: 1em;
@@ -664,17 +663,17 @@ button.kleurblauw {
     row-gap: 15px;
 }
 
-#overview article {
+article {
     position: relative;
     text-align: left;
     height: 35em;
 }
 
-#overview article p:first-of-type {
+article p:first-of-type {
     color: red;
 }
   
-#overview h2 {
+h2 {
     font-size: 1.7em;
     margin-top: .2em;
     padding-right: 1em;
@@ -697,7 +696,7 @@ footer {
     display: grid;
 }
 
-#overview footer a {
+footer a {
     color: white;
     font-size: 1em;
     text-decoration: none;
@@ -724,21 +723,21 @@ footer form input {
    
 }
   
-#overview footer form input::placeholder {
+footer form input::placeholder {
     color: black;
 }
   
-#overview footer form button {
+footer form button {
     display: none;
 }
 
-#overview #customer-service {
+#customer-service {
     width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
   
-#overview #customer-service li {
+#customer-service li {
     list-style-type: none;
     margin-top: .5em;
     font-family: 'PT Sans Narrow', sans-serif;
