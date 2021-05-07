@@ -663,17 +663,17 @@ button.kleurrood {
     row-gap: 15px;
 }
 
-article {
+#overview article {
     position: relative;
     text-align: left;
     height: 35em;
 }
 
-article p:first-of-type {
+#overview article p:first-of-type {
     color: red;
 }
   
-h2 {
+#overview h2 {
     font-size: 1.7em;
     margin-top: .2em;
     padding-right: 1em;
@@ -681,7 +681,7 @@ h2 {
     margin-bottom: .4em;
 }
 
-article p {
+#overview article p {
     margin-bottom: 0;
     line-height: 1em;
 }
