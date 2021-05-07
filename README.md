@@ -5,14 +5,14 @@
 Dit project is gemaakt door Ymaro Blue en Sven Zoutman.
 
 </br>
--------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Onze Case
 
 Wij hebben gekozen voor de 'Webshop' frontend overview page.
 
 </br>
--------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Ons Eindproduct
 
@@ -30,7 +30,7 @@ De 4 UI Principles
 4. Consistency matters
 
 </br>
--------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## De UI Principles
 
@@ -59,6 +59,4 @@ Vorm volgt functie. In de praktijk betekent dit dat iemand moet kunnen voorspell
 Volgens het vorige principe zouden schermelementen niet consistent met elkaar moeten lijken, tenzij ze zich consistent met elkaar gedragen. Dit betekent ook dat je elementen die niks met elkaar te maken hebben er ook anders uit laat zien.
 
 </br>
--------------------------------------------------------------------------------------------------------------------------------------------
-
 ---
