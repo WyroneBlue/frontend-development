@@ -621,8 +621,16 @@ input[type=checkbox]:checked + label:before {
     width: 28px;
 }
 
+.kleur button.active{
+    box-shadow: black 0px 0px 1px 3px;
+}
+
 button.kleurzwart {
     background-color: black;
+}
+
+button.kleurzwart.active {
+    box-shadow: grey 0px 0px 1px 3px;
 }
 
 button.kleurgroen {
