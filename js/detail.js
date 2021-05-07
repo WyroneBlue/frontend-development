@@ -11,6 +11,7 @@ var colors = document.querySelector("#shoe-colors div");
 
 var controls = document.querySelectorAll("#controls > span");
 var forYou = document.querySelector("#for-you div");
+let forYouHtml = '';
 let pos = { top: 0, left: 0, x: 0, y: 0 };
 var html = {
     image: '',
@@ -71,6 +72,25 @@ const scrollForYou = function(e){
     }
 }
 
+const loadForYouShoes = function(e){
+
+    shoelist.forEach(shoe => {
+        
+        forYouHtml += `
+        <figure onclick="goToDetail(this)" data-id="${shoe.id}">
+            <img draggable="false" src="${shoe.images[0]}" alt="">
+            <section>
+                <span>${shoe.name}</span>
+                <span>${shoe.for}</span>
+            </section>
+
+            <span>€ ${shoe.price}</span>
+        </figure>
+        `;
+    });
+    forYou.innerHTML = forYouHtml;
+}
+
 let getCurrentShoe = function(e) {
 
     names.forEach(name => {
@@ -103,6 +123,8 @@ let getCurrentShoe = function(e) {
 }
 
 window.addEventListener('DOMContentLoaded', getCurrentShoe);
+window.addEventListener('DOMContentLoaded', loadForYouShoes);
+
 forYou.addEventListener('mousedown', mouseDownHandler);
 
 controls.forEach(span => {
